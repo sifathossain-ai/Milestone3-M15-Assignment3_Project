@@ -35,16 +35,16 @@
 
 </head>
 
-<body class="manrope-font">
+<body class="manrope-font container mx-auto ">
     <!-- Header Section -->
     <header class="w-full mt-14">
         <!-- Navbar -->
-        <nav class="navbar bg-base-100 container mx-auto flex justify-between">
+        <nav class="navbar bg-base-100 flex justify-between">
             <div class="navbar-start">
                 <i class="fa-solid fa-arrow-right bg-primaryColor text-black p-1.5 rounded-full -rotate-40"></i>
                 <a class="btn btn-ghost text-3xl font-extrabold">Rinterio</a>
             </div>
-            <div class="navbar-center lg:visible">
+            <div class="navbar-center invisible lg:visible">
                 <ul class="flex gap-7">
                     <li class="font-bold"><a href="">Home</a></li>
                     <li><a href="">Service</a></li>
@@ -119,8 +119,22 @@
             </div>
         </nav>
         <!-- Banner -->
-        <div>
-
+        <div class="hero mt-14 min-h-screen">
+            <div class="hero-content flex-col text-center justify-center items-center">
+                <img src="assets/banner.png" class="" />
+                <div>
+                    <h1 class="text-5xl font-bold">A barn house of this design has a <br>striking appearance</h1>
+                    <p class="py-6 text-gray-500">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal <br>accents, and large windows that flood the space with natural
+                        light.
+                    </p>
+                    <button class="btn btn-active border-none rounded-full bg-[#ABEF5F] p-3 font-bold mb-5 bg-opacity-50">
+                        Book Consult
+                        <i class="fa-solid fa-arrow-right bg-primaryColor text-white p-1.5 rounded-full -rotate-40"></i>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
     <!-- Main Section -->
