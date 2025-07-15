@@ -35,9 +35,9 @@
 
 </head>
 
-<body class="manrope-font container mx-auto ">
+<body class="manrope-font">
     <!-- Header Section -->
-    <header class="w-full mt-14">
+    <header class="w-full mt-14 container mx-auto">
         <!-- Navbar -->
         <nav class="navbar bg-base-100 flex justify-between">
             <div class="navbar-start">
@@ -119,18 +119,19 @@
             </div>
         </nav>
         <!-- Banner -->
-        <div class="hero mt-14">
+        <div class="hero mt-24">
             <div class="hero-content flex-col text-center justify-center items-center">
                 <img src="assets/banner.png" class="" />
                 <div>
-                    <h1 class="text-5xl font-bold">A barn house of this design has a <br>striking appearance</h1>
+                    <h1 class="text-5xl font-bold">A barn house of this design has <br>a striking appearance</h1>
                     <p class="py-6 text-gray-500">
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal <br>accents, and large windows that flood the space with natural
                         light.
                     </p>
-                    <button class="btn btn-active border-none rounded-full bg-[#ABEF5F] p-3 font-bold mb-5 bg-opacity-50">
-                        Book Consult
+                    <button
+                        class="btn btn-active border-none rounded-full bg-[#ABEF5F] p-3 font-bold mb-5 bg-opacity-50">
+                        View Details
                         <i class="fa-solid fa-arrow-right bg-primaryColor text-white p-1.5 rounded-full -rotate-40"></i>
                     </button>
                 </div>
@@ -139,7 +140,43 @@
     </header>
     <!-- Main Section -->
     <main>
-
+        <!-- About Us Section -->
+        <section class="my-24">
+            <div class="hero bg-base-200">
+                <div class="hero-content flex-col lg:flex-row-reverse py-24 container mx-auto gap-7">
+                    <img src="assets/Rectangle.png" class="w-1/2 rounded-lg" />
+                    <div>
+                        <button class="btn btn-sm bg-white p-3 rounded-full mb-3 text-center">
+                            <i class="fa-solid fa-arrow-right gap-3"></i>
+                            About Us
+                        </button>
+                        <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and
+                            modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                        <div class="card bg-base-100 card-md shadow-sm mb-4">
+                            <div class="flex justify-center items-center">
+                                <img class="p-3 w-20 h-20" src="assets/commercial.png" alt="">
+                                <div class="card-body">
+                                    <h2 class="card-title">Commercial</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-base-100 card-md shadow-sm">
+                            <div class="flex justify-center items-center">
+                                <img class="p-3 w-20 h-20" src="assets/commercial.png" alt="">
+                                <div class="card-body">
+                                    <h2 class="card-title">Commercial</h2>
+                                    <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Footer Section -->
     <footer>
